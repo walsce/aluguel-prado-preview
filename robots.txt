@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /images/
+
+# Pages are intentionally accessible to crawlers so that the HTML noindex directive is honored.
+# Static vehicle and destination images are excluded from crawling during the prototype phase.
